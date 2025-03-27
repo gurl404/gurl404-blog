@@ -1,0 +1,4 @@
+baseURL: 'https://example.org/'
+languageCode: 'en-us'
+title: 'GURL404''s Blog'
+theme: 'hugo-simple'
