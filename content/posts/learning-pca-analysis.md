@@ -1,6 +1,6 @@
 +++
 date = '2025-03-27T21:39:28-05:00'
-draft = true
+draft = false
 title = 'Learning Pca Analysis'
 +++
 
@@ -29,7 +29,7 @@ I don't have much of a formal education in this field. I actually only have an A
  - Interpret the Results
 
 ## Finding a Dataset 
-I didn't have a specific dataset in mind or a specific reason for doing
+
 ## Standardizing the Data
 ## Compute the Covariance Matrix
 ## Calculate Eigenvalues and Eigenvectors 

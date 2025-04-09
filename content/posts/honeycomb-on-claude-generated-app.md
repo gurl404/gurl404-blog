@@ -1,3 +1,8 @@
++++
+date = '2025-04-08T21:22:52-05:00'
+draft = false
+title = 'Building a Social Media Metrics Dashboard with Claude.ai and Honeycomb Observability'
++++
 # Building a Social Media Metrics Dashboard with Claude.ai and Honeycomb Observability
 ** I could split this up into multiple parts
 ## Introduction
