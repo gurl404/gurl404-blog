@@ -6,8 +6,44 @@
     <description>Recent content on GURL404&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Mar 2025 17:58:42 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 27 Mar 2025 21:39:28 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning Pca Analysis</title>
+      <link>http://localhost:1313/posts/learning-pca-analysis/</link>
+      <pubDate>Thu, 27 Mar 2025 21:39:28 -0500</pubDate>
+      <guid>http://localhost:1313/posts/learning-pca-analysis/</guid>
+      <description>&lt;h1 id=&#34;learning-principal-component-analysis-pca&#34;&gt;Learning Principal Component Analysis (PCA)&lt;/h1&gt;
+&lt;p&gt;Life often feels like a series of pivots. For me, the latest one has been a leap from the familiar world of software engineering into the vast and intricate landscape of data. It’s a thrilling challenge, marked by the kind of curiosity that keeps me up late into the night, fueled by ambitions of building something extraordinary alongside my mentor—a brilliant machine learning engineer and my cofounder. Together, we’re shaping a startup that marries innovation with purpose.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="learning-principal-component-analysis-pca">Learning Principal Component Analysis (PCA)</h1>
+<p>Life often feels like a series of pivots. For me, the latest one has been a leap from the familiar world of software engineering into the vast and intricate landscape of data. It’s a thrilling challenge, marked by the kind of curiosity that keeps me up late into the night, fueled by ambitions of building something extraordinary alongside my mentor—a brilliant machine learning engineer and my cofounder. Together, we’re shaping a startup that marries innovation with purpose.</p>
+<p>In my professional life, I’m lucky to have landed a role at Bayer as a Data Engineer, where every day is an opportunity to refine my craft and uncover the secrets of this data-driven universe. But the real magic happens after work hours, when I dive deep into self-learning, guided by my mentor’s sage advice. His latest suggestion? Master Principal Component Analysis (PCA)—an essential tool for dimensionality reduction and pattern recognition. Spoiler alert: it&rsquo;s as intimidating as it sounds, but that&rsquo;s precisely what makes it so exhilarating.</p>
+<p>This blog chronicles my first attempt at PCA, paired with another ambitious goal: learning the Go programming language. Because why take one leap when you can take two?</p>
+<h2 id="starting-the-process">Starting the Process</h2>
+<p>I don&rsquo;t have much of a formal education in this field. I actually only have an Associate&rsquo;s and I snuck into the tech world via a bootcamp and fortuitous start at Mastercard. I am now getting an online degree in Software Engineering, so better late than never! That being said, I had to Google PCA Analysis and do some hefty research to wrap my head around it. Here are some resources I&rsquo;ve found that are beginner friendly!</p>
+<ul>
+<li><a href="https://www.geeksforgeeks.org/principal-component-analysis-pca/">Geek for Geeks</a></li>
+<li><a href="https://www.turing.com/kb/guide-to-principal-component-analysis">Turing</a></li>
+<li><a href="https://builtin.com/data-science/step-step-explanation-principal-component-analysis">Buitin</a></li>
+</ul>
+<h2 id="steps-to-pca">Steps to PCA</h2>
+<ul>
+<li>Standardize the Data</li>
+<li>Compute the Covariance Matrix</li>
+<li>Calculate Eigenvalues and Eigenvectors</li>
+<li>Choose the Principal Components</li>
+<li>Transform the Data</li>
+<li>Interpret the Results</li>
+</ul>
+<h2 id="finding-a-dataset">Finding a Dataset</h2>
+<h2 id="standardizing-the-data">Standardizing the Data</h2>
+<h2 id="compute-the-covariance-matrix">Compute the Covariance Matrix</h2>
+<h2 id="calculate-eigenvalues-and-eigenvectors">Calculate Eigenvalues and Eigenvectors</h2>
+<h2 id="choose-the-principal-components">Choose the Principal Components</h2>
+<h2 id="transform-the-data">Transform the Data</h2>
+<h2 id="interpret-the-results">Interpret the Results</h2>
+]]></content:encoded>
+    </item>
     <item>
       <title>Making a Blog</title>
       <link>http://localhost:1313/posts/making-a-blog/</link>

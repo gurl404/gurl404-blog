@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Learning Pca Analysis&nbsp;|&nbsp;GURL404&#39;s Blog</title>
+<meta
+  name="title"
+  content="Learning Pca Analysis"
+/>
+<meta
+  name="description"
+  content="Learning Principal Component Analysis (PCA)
+Life often feels like a series of pivots. For me, the latest one has been a leap from the familiar world of software engineering into the vast and intricate landscape of data. It’s a thrilling challenge, marked by the kind of curiosity that keeps me up late into the night, fueled by ambitions of building something extraordinary alongside my mentor—a brilliant machine learning engineer and my cofounder. Together, we’re shaping a startup that marries innovation with purpose."
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+
+
+
+
+<meta property="og:url" content="http://localhost:1313/posts/learning-pca-analysis/">
+  <meta property="og:site_name" content="GURL404&#39;s Blog">
+  <meta property="og:title" content="Learning Pca Analysis">
+  <meta property="og:description" content="Learning Principal Component Analysis (PCA) Life often feels like a series of pivots. For me, the latest one has been a leap from the familiar world of software engineering into the vast and intricate landscape of data. It’s a thrilling challenge, marked by the kind of curiosity that keeps me up late into the night, fueled by ambitions of building something extraordinary alongside my mentor—a brilliant machine learning engineer and my cofounder. Together, we’re shaping a startup that marries innovation with purpose.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-27T21:39:28-05:00">
+    <meta property="article:modified_time" content="2025-03-27T21:39:28-05:00">
+
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Learning Pca Analysis">
+  <meta name="twitter:description" content="Learning Principal Component Analysis (PCA) Life often feels like a series of pivots. For me, the latest one has been a leap from the familiar world of software engineering into the vast and intricate landscape of data. It’s a thrilling challenge, marked by the kind of curiosity that keeps me up late into the night, fueled by ambitions of building something extraordinary alongside my mentor—a brilliant machine learning engineer and my cofounder. Together, we’re shaping a startup that marries innovation with purpose.">
+
+
+
+
+
+  <meta itemprop="name" content="Learning Pca Analysis">
+  <meta itemprop="description" content="Learning Principal Component Analysis (PCA) Life often feels like a series of pivots. For me, the latest one has been a leap from the familiar world of software engineering into the vast and intricate landscape of data. It’s a thrilling challenge, marked by the kind of curiosity that keeps me up late into the night, fueled by ambitions of building something extraordinary alongside my mentor—a brilliant machine learning engineer and my cofounder. Together, we’re shaping a startup that marries innovation with purpose.">
+  <meta itemprop="datePublished" content="2025-03-27T21:39:28-05:00">
+  <meta itemprop="dateModified" content="2025-03-27T21:39:28-05:00">
+  <meta itemprop="wordCount" content="330">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+    
+    
+    
+    <link href="/bundle.min.css" rel="stylesheet" />
+
+    
+
+    
+
+
+    
+</head>
+
+  <body>
+    <header>
+      <nav>
+
+  <a href="/index.xml">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 448 512">
+      
+      <path
+        d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
+      />
+    </svg>
+    RSS
+  </a>
+
+</nav>
+
+<h1>Learning Pca Analysis</h1>
+
+
+    </header>
+    <main>
+      
+  
+  
+  <content>
+    <h1 id="learning-principal-component-analysis-pca">Learning Principal Component Analysis (PCA)</h1>
+<p>Life often feels like a series of pivots. For me, the latest one has been a leap from the familiar world of software engineering into the vast and intricate landscape of data. It’s a thrilling challenge, marked by the kind of curiosity that keeps me up late into the night, fueled by ambitions of building something extraordinary alongside my mentor—a brilliant machine learning engineer and my cofounder. Together, we’re shaping a startup that marries innovation with purpose.</p>
+<p>In my professional life, I’m lucky to have landed a role at Bayer as a Data Engineer, where every day is an opportunity to refine my craft and uncover the secrets of this data-driven universe. But the real magic happens after work hours, when I dive deep into self-learning, guided by my mentor’s sage advice. His latest suggestion? Master Principal Component Analysis (PCA)—an essential tool for dimensionality reduction and pattern recognition. Spoiler alert: it&rsquo;s as intimidating as it sounds, but that&rsquo;s precisely what makes it so exhilarating.</p>
+<p>This blog chronicles my first attempt at PCA, paired with another ambitious goal: learning the Go programming language. Because why take one leap when you can take two?</p>
+<h2 id="starting-the-process">Starting the Process</h2>
+<p>I don&rsquo;t have much of a formal education in this field. I actually only have an Associate&rsquo;s and I snuck into the tech world via a bootcamp and fortuitous start at Mastercard. I am now getting an online degree in Software Engineering, so better late than never! That being said, I had to Google PCA Analysis and do some hefty research to wrap my head around it. Here are some resources I&rsquo;ve found that are beginner friendly!</p>
+<ul>
+<li><a href="https://www.geeksforgeeks.org/principal-component-analysis-pca/">Geek for Geeks</a></li>
+<li><a href="https://www.turing.com/kb/guide-to-principal-component-analysis">Turing</a></li>
+<li><a href="https://builtin.com/data-science/step-step-explanation-principal-component-analysis">Buitin</a></li>
+</ul>
+<h2 id="steps-to-pca">Steps to PCA</h2>
+<ul>
+<li>Standardize the Data</li>
+<li>Compute the Covariance Matrix</li>
+<li>Calculate Eigenvalues and Eigenvectors</li>
+<li>Choose the Principal Components</li>
+<li>Transform the Data</li>
+<li>Interpret the Results</li>
+</ul>
+<h2 id="finding-a-dataset">Finding a Dataset</h2>
+<h2 id="standardizing-the-data">Standardizing the Data</h2>
+<h2 id="compute-the-covariance-matrix">Compute the Covariance Matrix</h2>
+<h2 id="calculate-eigenvalues-and-eigenvectors">Calculate Eigenvalues and Eigenvectors</h2>
+<h2 id="choose-the-principal-components">Choose the Principal Components</h2>
+<h2 id="transform-the-data">Transform the Data</h2>
+<h2 id="interpret-the-results">Interpret the Results</h2>
+
+  </content>
+  
+  
+
+    </main>
+    <footer>
+      
+
+  <span>
+    
+    Made with
+    <a href="https://github.com/maolonglong/hugo-simple/">Hugo ʕ•ᴥ•ʔ Simple</a>
+  </span>
+
+
+    </footer>
+
+    
+</body>
+</html>
